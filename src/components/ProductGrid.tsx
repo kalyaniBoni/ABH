@@ -10,7 +10,6 @@ const ProductGrid = () => {
     {
       name: "Turmeric",
       description: "High-curcumin content turmeric, ideal for culinary and medicinal uses.",
-      image: "https://images.unsplash.com/photo-1615729947596-a598e5de0ab3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-yellow-400 to-orange-500",
       specifications: "Curcumin content: 3-5%, Moisture: <10%, Origin: Andhra Pradesh",
       certifications: ["Organic Certified", "Export Quality", "FSSAI Approved"]
@@ -18,7 +17,6 @@ const ProductGrid = () => {
     {
       name: "Corn",
       description: "Premium-grade corn suitable for food processing and animal feed.",
-      image: "https://images.unsplash.com/photo-1551754655-cd27e38d2076?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-yellow-300 to-yellow-500",
       specifications: "Moisture: <14%, Protein: 8-10%, Origin: Local farms",
       certifications: ["Quality Tested", "Non-GMO", "FSSAI Approved"]
@@ -26,7 +24,6 @@ const ProductGrid = () => {
     {
       name: "Millets",
       description: "Diverse range of millets, rich in nutrients and fiber.",
-      image: "https://images.unsplash.com/photo-1586201375761-83865001e8c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-amber-400 to-orange-400",
       specifications: "Varieties: Pearl, Finger, Foxtail millets, Protein: 11-15%",
       certifications: ["Organic", "Nutritional Grade", "Export Quality"]
@@ -34,7 +31,6 @@ const ProductGrid = () => {
     {
       name: "Spices",
       description: "Aromatic spices sourced directly from local farms.",
-      image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-red-400 to-red-600",
       specifications: "Varieties: Chili, Coriander, Cumin, Moisture: <12%",
       certifications: ["Spice Board Certified", "Export Grade", "FSSAI Approved"]
@@ -42,7 +38,6 @@ const ProductGrid = () => {
     {
       name: "Raw Cashew",
       description: "Naturally cultivated raw cashew nuts, processed using traditional techniques by tribal communities in Kurupam.",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-green-400 to-emerald-500",
       specifications: "Grade: W320, W240, Moisture: <5%, Processing: Traditional methods",
       certifications: ["Fair Trade", "Organic", "Export Quality"]
@@ -50,7 +45,6 @@ const ProductGrid = () => {
     {
       name: "Tamarind",
       description: "Premium quality tamarind with rich tangy flavor, perfect for culinary applications.",
-      image: "https://images.unsplash.com/photo-1609501676725-7186f90fa371?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-amber-600 to-brown-500",
       specifications: "Moisture: <14%, Acidity: 12-18%, Origin: Andhra Pradesh",
       certifications: ["Export Quality", "FSSAI Approved", "Organic Certified"]
@@ -75,19 +69,13 @@ const ProductGrid = () => {
               className="group overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
               onClick={() => setSelectedProduct(product)}
             >
-              <div className="relative h-64 overflow-hidden">
-                <div className={`absolute inset-0 bg-gradient-to-br ${product.color} opacity-20`}></div>
-                <img 
-                  src={product.image} 
-                  alt={product.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                />
+              <div className={`h-32 bg-gradient-to-br ${product.color} flex items-center justify-center relative`}>
+                <h3 className="text-3xl font-bold text-white text-center">{product.name}</h3>
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-3 py-1">
                   <span className="text-sm font-semibold text-gray-800">10+ Tons</span>
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">{product.name}</h3>
                 <p className="text-gray-600 leading-relaxed">{product.description}</p>
               </CardContent>
             </Card>

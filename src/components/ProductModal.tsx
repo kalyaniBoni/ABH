@@ -1,7 +1,6 @@
 
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { X } from 'lucide-react';
 
 const ProductModal = ({ product, isOpen, onClose }) => {
   if (!product) return null;
@@ -13,13 +12,9 @@ const ProductModal = ({ product, isOpen, onClose }) => {
           <DialogTitle className="text-2xl font-bold text-gray-900">{product.name}</DialogTitle>
         </DialogHeader>
         
-        <div className="grid md:grid-cols-2 gap-6">
-          <div>
-            <img 
-              src={product.image} 
-              alt={product.name}
-              className="w-full h-48 object-cover rounded-lg"
-            />
+        <div className="space-y-6">
+          <div className={`h-32 bg-gradient-to-br ${product.color} flex items-center justify-center rounded-lg`}>
+            <h3 className="text-4xl font-bold text-white">{product.name}</h3>
           </div>
           
           <div className="space-y-4">
