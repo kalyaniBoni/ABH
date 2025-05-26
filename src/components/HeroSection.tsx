@@ -8,11 +8,11 @@ const HeroSection = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 overflow-hidden pt-16">
-      <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent z-10"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-black/30 to-black/10 z-10"></div>
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')"
+          backgroundImage: "url('https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')"
         }}
       ></div>
       

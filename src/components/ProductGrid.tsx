@@ -18,7 +18,7 @@ const ProductGrid = () => {
     {
       name: "Corn",
       description: "Premium-grade corn suitable for food processing and animal feed.",
-      image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1551754655-cd27e38d2076?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-yellow-300 to-yellow-500",
       specifications: "Moisture: <14%, Protein: 8-10%, Origin: Local farms",
       certifications: ["Quality Tested", "Non-GMO", "FSSAI Approved"]
@@ -26,7 +26,7 @@ const ProductGrid = () => {
     {
       name: "Millets",
       description: "Diverse range of millets, rich in nutrients and fiber.",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1586201375761-83865001e8c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-amber-400 to-orange-400",
       specifications: "Varieties: Pearl, Finger, Foxtail millets, Protein: 11-15%",
       certifications: ["Organic", "Nutritional Grade", "Export Quality"]
@@ -34,7 +34,7 @@ const ProductGrid = () => {
     {
       name: "Spices",
       description: "Aromatic spices sourced directly from local farms.",
-      image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-red-400 to-red-600",
       specifications: "Varieties: Chili, Coriander, Cumin, Moisture: <12%",
       certifications: ["Spice Board Certified", "Export Grade", "FSSAI Approved"]
@@ -42,10 +42,18 @@ const ProductGrid = () => {
     {
       name: "Raw Cashew",
       description: "Naturally cultivated raw cashew nuts, processed using traditional techniques by tribal communities in Kurupam.",
-      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-green-400 to-emerald-500",
       specifications: "Grade: W320, W240, Moisture: <5%, Processing: Traditional methods",
       certifications: ["Fair Trade", "Organic", "Export Quality"]
+    },
+    {
+      name: "Tamarind",
+      description: "Premium quality tamarind with rich tangy flavor, perfect for culinary applications.",
+      image: "https://images.unsplash.com/photo-1609501676725-7186f90fa371?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      color: "from-amber-600 to-brown-500",
+      specifications: "Moisture: <14%, Acidity: 12-18%, Origin: Andhra Pradesh",
+      certifications: ["Export Quality", "FSSAI Approved", "Organic Certified"]
     }
   ];
 
