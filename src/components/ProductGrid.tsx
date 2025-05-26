@@ -12,25 +12,25 @@ const ProductGrid = () => {
     {
       name: "Corn",
       description: "Premium-grade corn suitable for food processing and animal feed.",
-      image: "https://images.unsplash.com/photo-1551754655-cd27e38d2076?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-yellow-300 to-yellow-500"
     },
     {
       name: "Millets",
       description: "Diverse range of millets, rich in nutrients and fiber.",
-      image: "https://images.unsplash.com/photo-1586201375761-83865001e31c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-amber-400 to-orange-400"
     },
     {
       name: "Spices",
       description: "Aromatic spices sourced directly from local farms.",
-      image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-red-400 to-red-600"
     },
     {
       name: "Raw Cashew",
       description: "Naturally cultivated raw cashew nuts, processed using traditional techniques by tribal communities in Kurupam.",
-      image: "https://images.unsplash.com/photo-1508747716-ca07ba723892?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+      image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
       color: "from-green-400 to-emerald-500"
     }
   ];
