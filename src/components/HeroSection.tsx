@@ -1,14 +1,13 @@
 
+import { useState } from 'react';
 import { Button } from "@/components/ui/button";
+import QuoteModal from './QuoteModal';
 
 const HeroSection = () => {
-  const scrollToContact = () => {
-    const contactSection = document.getElementById('contact');
-    contactSection?.scrollIntoView({ behavior: 'smooth' });
-  };
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-amber-50 to-orange-100 overflow-hidden pt-16">
       <div className="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent z-10"></div>
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -29,7 +28,7 @@ const HeroSection = () => {
         </p>
         
         <Button 
-          onClick={scrollToContact}
+          onClick={() => setIsModalOpen(true)}
           size="lg" 
           className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
         >
@@ -42,6 +41,8 @@ const HeroSection = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
       </div>
+      
+      <QuoteModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </section>
   );
 };

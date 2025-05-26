@@ -1,7 +1,7 @@
 
 const AboutSection = () => {
   return (
-    <section className="py-20 bg-white">
+    <section id="about" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Aravind Traders</h2>
@@ -18,10 +18,9 @@ const AboutSection = () => {
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
-              Our operations are bolstered by the expertise of Mr. Ajith Potnuru, an alumnus of the 
-              Institute of Management Technology (IMT), Hyderabad. Currently serving as a Business 
-              Analyst at Genpact, Mr. Potnuru brings a wealth of analytical and strategic experience 
-              to Aravind Traders, enhancing our supply chain and customer satisfaction.
+              Founded and managed by Mr. Potnuru Madhusudhan Rao, Aravind Traders has established 
+              a reputation for quality and reliability in the agricultural trading sector. His 
+              extensive experience and commitment to excellence drive our operations forward.
             </p>
             
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -35,11 +34,11 @@ const AboutSection = () => {
             <div className="bg-gradient-to-br from-amber-400 to-orange-500 rounded-3xl p-8 text-white">
               <div className="text-center">
                 <div className="w-32 h-32 mx-auto mb-6 bg-white/20 rounded-full flex items-center justify-center">
-                  <span className="text-4xl font-bold">AP</span>
+                  <span className="text-4xl font-bold">MR</span>
                 </div>
-                <h3 className="text-2xl font-bold mb-2">Mr. Ajith Potnuru</h3>
-                <p className="text-lg opacity-90 mb-4">Business Analyst, Genpact</p>
-                <p className="text-sm opacity-80">IMT Hyderabad Alumni</p>
+                <h3 className="text-2xl font-bold mb-2">Mr. Potnuru Madhusudhan Rao</h3>
+                <p className="text-lg opacity-90 mb-4">Founder & Managing Director</p>
+                <p className="text-sm opacity-80">Leading Aravind Traders with dedication and expertise</p>
               </div>
             </div>
           </div>

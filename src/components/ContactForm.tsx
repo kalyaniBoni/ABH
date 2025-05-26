@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Card, CardContent } from "@/components/ui/card";
 import { useToast } from "@/hooks/use-toast";
 
@@ -15,7 +14,6 @@ const ContactForm = () => {
     company: '',
     email: '',
     phone: '',
-    product: '',
     message: ''
   });
 
@@ -31,7 +29,6 @@ const ContactForm = () => {
       company: '',
       email: '',
       phone: '',
-      product: '',
       message: ''
     });
   };
@@ -55,7 +52,6 @@ const ContactForm = () => {
         </div>
         
         <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
           <Card className="bg-gray-800 border-gray-700">
             <CardContent className="p-8">
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -99,42 +95,25 @@ const ContactForm = () => {
                     />
                   </div>
                   <div>
-                    <Label htmlFor="phone" className="text-white">Phone Number *</Label>
+                    <Label htmlFor="phone" className="text-white">Phone Number</Label>
                     <Input
                       id="phone"
                       type="tel"
                       value={formData.phone}
                       onChange={(e) => handleInputChange('phone', e.target.value)}
-                      required
                       className="bg-gray-700 border-gray-600 text-white placeholder-gray-400"
-                      placeholder="+91-XXXXXXXXXX"
+                      placeholder="+91 8073219743"
                     />
                   </div>
                 </div>
                 
                 <div>
-                  <Label htmlFor="product" className="text-white">Product Interest</Label>
-                  <Select value={formData.product} onValueChange={(value) => handleInputChange('product', value)}>
-                    <SelectTrigger className="bg-gray-700 border-gray-600 text-white">
-                      <SelectValue placeholder="Select a product" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="turmeric">Turmeric</SelectItem>
-                      <SelectItem value="corn">Corn</SelectItem>
-                      <SelectItem value="millets">Millets</SelectItem>
-                      <SelectItem value="spices">Spices</SelectItem>
-                      <SelectItem value="cashew">Raw Cashew</SelectItem>
-                      <SelectItem value="multiple">Multiple Products</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-                
-                <div>
-                  <Label htmlFor="message" className="text-white">Message</Label>
+                  <Label htmlFor="message" className="text-white">Message *</Label>
                   <Textarea
                     id="message"
                     value={formData.message}
                     onChange={(e) => handleInputChange('message', e.target.value)}
+                    required
                     className="bg-gray-700 border-gray-600 text-white placeholder-gray-400 min-h-[120px]"
                     placeholder="Tell us about your requirements, quantities, and any specific needs..."
                   />
@@ -150,7 +129,6 @@ const ContactForm = () => {
             </CardContent>
           </Card>
           
-          {/* Contact Information */}
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
@@ -161,7 +139,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <p className="text-gray-300">Phone</p>
-                    <p className="text-white font-semibold">+91-XXXXXXXXXX</p>
+                    <p className="text-white font-semibold">+91 8073219743</p>
                   </div>
                 </div>
                 
@@ -171,7 +149,7 @@ const ContactForm = () => {
                   </div>
                   <div>
                     <p className="text-gray-300">Email</p>
-                    <p className="text-white font-semibold">contact@aravindtraders.com</p>
+                    <p className="text-white font-semibold">aravindtraders9@gmail.com</p>
                   </div>
                 </div>
                 
@@ -182,6 +160,16 @@ const ContactForm = () => {
                   <div>
                     <p className="text-gray-300">Address</p>
                     <p className="text-white font-semibold">Kurupam, Parvathipuram Manyam<br />Andhra Pradesh, India - 535524</p>
+                  </div>
+                </div>
+                
+                <div className="flex items-center space-x-4">
+                  <div className="w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center">
+                    <span className="text-xl">🏛️</span>
+                  </div>
+                  <div>
+                    <p className="text-gray-300">GSTIN</p>
+                    <p className="text-white font-semibold">37BFDPP9463D1Z6</p>
                   </div>
                 </div>
               </div>
