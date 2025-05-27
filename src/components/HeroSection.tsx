@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import QuoteModal from './QuoteModal';
@@ -11,7 +10,7 @@ const HeroSection = () => {
       id="home" 
       className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/lovable-uploads/f8555a2a-1759-4229-9edf-3891bc974230.png')`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/lovable-uploads/6185aeb0-9316-4cc3-a3c8-a004ac02e499.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -24,7 +23,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Supplying turmeric, corn, millets, spices, and raw cashew in 10-ton minimum orders 
+          Supplying turmeric, corn, millets, spices, and tamarind in 10-ton minimum orders 
           to retailers, exporters, and industries.
         </p>
         

@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import ProductModal from './ProductModal';
@@ -24,23 +23,16 @@ const ProductGrid = () => {
     {
       name: "Millets",
       description: "Diverse range of millets, rich in nutrients and fiber.",
-      image: "/lovable-uploads/2b4e9ce2-9374-4a8d-9e87-7bb7b69bcdc1.png",
+      image: "/lovable-uploads/03c3048a-9e09-4cb2-ab37-c4020cd91397.png",
       specifications: "Varieties: Pearl, Finger, Foxtail millets, Protein: 11-15%",
       certifications: ["Organic", "Nutritional Grade", "Export Quality"]
     },
     {
       name: "Spices",
       description: "Aromatic spices sourced directly from local farms.",
-      image: "/lovable-uploads/2b4e9ce2-9374-4a8d-9e87-7bb7b69bcdc1.png",
+      image: "/lovable-uploads/d90af92f-800b-4048-82d4-fe034e722cc7.png",
       specifications: "Varieties: Chili, Coriander, Cumin, Moisture: <12%",
       certifications: ["Spice Board Certified", "Export Grade", "FSSAI Approved"]
-    },
-    {
-      name: "Raw Cashew",
-      description: "Naturally cultivated raw cashew nuts, processed using traditional techniques by tribal communities in Kurupam.",
-      image: "/lovable-uploads/2b4e9ce2-9374-4a8d-9e87-7bb7b69bcdc1.png",
-      specifications: "Grade: W320, W240, Moisture: <5%, Processing: Traditional methods",
-      certifications: ["Fair Trade", "Organic", "Export Quality"]
     },
     {
       name: "Tamarind",
