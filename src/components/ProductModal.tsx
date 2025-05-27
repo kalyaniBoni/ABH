@@ -13,8 +13,12 @@ const ProductModal = ({ product, isOpen, onClose }) => {
         </DialogHeader>
         
         <div className="space-y-6">
-          <div className={`h-32 bg-gradient-to-br ${product.color} flex items-center justify-center rounded-lg`}>
-            <h3 className="text-4xl font-bold text-white">{product.name}</h3>
+          <div className="h-64 overflow-hidden rounded-lg">
+            <img 
+              src={product.image} 
+              alt={product.name}
+              className="w-full h-full object-cover"
+            />
           </div>
           
           <div className="space-y-4">
