@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
@@ -114,7 +113,7 @@ const QuoteModal = ({ isOpen, onClose }) => {
                   <SelectItem value="corn">Corn</SelectItem>
                   <SelectItem value="millets">Millets</SelectItem>
                   <SelectItem value="spices">Spices</SelectItem>
-                  <SelectItem value="cashew">Raw Cashew</SelectItem>
+                  <SelectItem value="tamarind">Tamarind</SelectItem>
                   <SelectItem value="multiple">Multiple Products</SelectItem>
                 </SelectContent>
               </Select>
