@@ -32,11 +32,8 @@ const StickyNavbar = () => {
             <img 
               src={logo} 
               alt="Aravind Bulk Harvest Logo" 
-              className="h-10 w-auto"
+              className="h-12 w-auto"
             />
-            <span className="ml-3 text-xl font-bold text-amber-600">
-              Aravind Bulk Harvest
-            </span>
           </div>
           
           <div className="hidden md:block">
