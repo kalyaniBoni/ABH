@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X } from 'lucide-react';
-import logo from '../assets/aravind-bulk-harvest-logo.webp';
+import logo from '../assets/abh-modern-logo.webp';
 
 const StickyNavbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,7 +31,7 @@ const StickyNavbar = () => {
           <div className="flex items-center">
             <img 
               src={logo} 
-              alt="Aravind Bulk Harvest Logo" 
+              alt="ABH Logo" 
               className="h-12 w-auto"
             />
           </div>
