@@ -12,21 +12,21 @@ const TestimonialsCarousel = () => {
       name: "Rajesh Kumar",
       company: "Kumar Exports Ltd.",
       location: "Mumbai",
-      text: "Aravind Traders has been our reliable partner for turmeric exports. Their consistent quality and timely delivery have helped us maintain our international commitments.",
+      text: "Aravind Bulk Harvest has been our reliable partner for turmeric exports. Their consistent quality and timely delivery have helped us maintain our international commitments.",
       rating: 5
     },
     {
       name: "Priya Sharma",
       company: "Sharma Spice Mills",
       location: "Delhi",
-      text: "The quality of corn and millets we receive from Aravind Traders is exceptional. Their pricing is competitive and logistics are always on time.",
+      text: "The quality of corn and millets we receive from Aravind Bulk Harvest is exceptional. Their pricing is competitive and logistics are always on time.",
       rating: 5
     },
     {
       name: "Dr. Venkatesh Rao",
       company: "Rao Food Processing",
       location: "Hyderabad",
-      text: "Working with Aravind Traders for over 3 years. Their raw cashew quality is unmatched, and the tribal processing methods add authentic value to our products.",
+      text: "Working with Aravind Bulk Harvest for over 3 years. Their raw cashew quality is unmatched, and the tribal processing methods add authentic value to our products.",
       rating: 5
     }
   ];

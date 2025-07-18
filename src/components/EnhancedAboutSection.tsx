@@ -30,7 +30,7 @@ const EnhancedAboutSection = () => {
     <section id="about" className="py-20 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Aravind Traders</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">About Aravind Bulk Harvest</h2>
           <div className="w-24 h-1 bg-amber-500 mx-auto mb-6"></div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Your trusted partner for bulk agricultural products from the heart of Andhra Pradesh
@@ -40,8 +40,8 @@ const EnhancedAboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6">
             <p className="text-lg text-gray-700 leading-relaxed">
-              Aravind Traders has been a cornerstone in the agricultural trading sector of Andhra Pradesh, 
-              specializing in the bulk supply of premium turmeric, corn, millets, spices, and tamarind. 
+              Aravind Bulk Harvest has been a cornerstone in the agricultural trading sector of Andhra Pradesh, 
+              specializing in the bulk supply of premium turmeric, corn, millets, spices, and tamarind.
               We serve retailers, wholesalers, exporters, and industrial buyers with a commitment to quality 
               and reliability.
             </p>
@@ -68,7 +68,7 @@ const EnhancedAboutSection = () => {
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Mr. Potnuru Madhusudhan Rao</h3>
                 <p className="text-lg opacity-90 mb-4">Founder & Managing Director</p>
-                <p className="text-sm opacity-80">Leading Aravind Traders with dedication and expertise in agricultural trading</p>
+                <p className="text-sm opacity-80">Leading Aravind Bulk Harvest with dedication and expertise in agricultural trading</p>
               </div>
             </div>
           </div>

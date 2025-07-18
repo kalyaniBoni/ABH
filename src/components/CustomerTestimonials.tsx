@@ -9,7 +9,7 @@ const CustomerTestimonials = () => {
       company: "Kumar Spice Industries",
       location: "Mumbai, Maharashtra",
       rating: 5,
-      text: "Aravind Traders has been our reliable supplier for over 3 years. Their turmeric quality is exceptional and delivery is always on time. Highly recommended for bulk orders."
+      text: "Aravind Bulk Harvest has been our reliable supplier for over 3 years. Their turmeric quality is exceptional and delivery is always on time. Highly recommended for bulk orders."
     },
     {
       name: "Priya Enterprises",
@@ -23,7 +23,7 @@ const CustomerTestimonials = () => {
       company: "Patel Trading Co.",
       location: "Ahmedabad, Gujarat",
       rating: 5,
-      text: "Professional service and competitive pricing. The team at Aravind Traders understands our bulk requirements and always delivers quality products."
+      text: "Professional service and competitive pricing. The team at Aravind Bulk Harvest understands our bulk requirements and always delivers quality products."
     },
     {
       name: "Lakshmi Foods",
