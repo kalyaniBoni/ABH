@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+# ABH - Aravind Bulk Harvest
 
-## Project info
+A professional website for Aravind Bulk Harvest, a leading supplier of high-quality agricultural products including turmeric, corn, millets, spices, and tamarind from Andhra Pradesh, India.
 
-**URL**: https://lovable.dev/projects/a76ceaca-d1b8-4a3d-9392-962db2fd9b2a
+## About Our Business
 
-## How can I edit this code?
+Aravind Bulk Harvest (ABH) specializes in providing premium agricultural products to wholesalers, distributors, and exporters. We source directly from local farmers to ensure the highest quality and freshness of our products.
 
-There are several ways of editing your application.
+### Our Products
 
-**Use Lovable**
+- **Turmeric**: High-curcumin content (3-5%), organic certified
+- **Corn**: Premium-grade for food processing and animal feed
+- **Millets**: Diverse varieties including Pearl, Finger, and Foxtail millets
+- **Spices**: Aromatic spices including chili, coriander, and cumin
+- **Tamarind**: Premium quality with rich tangy flavor
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a76ceaca-d1b8-4a3d-9392-962db2fd9b2a) and start prompting.
+## Technology Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+This modern, responsive website is built with:
 
-**Use your preferred IDE**
+- **React 18** - Modern JavaScript library for building user interfaces
+- **Vite** - Fast build tool and development server
+- **TypeScript** - Type-safe JavaScript development
+- **Tailwind CSS** - Utility-first CSS framework
+- **ShadCN UI** - High-quality React components
+- **Radix UI** - Accessible component primitives
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Development Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
 
-Follow these steps:
+- Node.js (version 16 or higher)
+- npm or yarn package manager
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# Clone the repository
+git clone https://github.com/KalyaniBoni/aravind-bulk-harvest.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Navigate to project directory
+cd aravind-bulk-harvest
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build production-ready application
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint for code quality
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # ShadCN UI components
+│   ├── HeroSection.tsx # Homepage hero banner
+│   ├── ProductGrid.tsx # Product showcase
+│   └── ContactForm.tsx # Contact information
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+├── pages/              # Page components
+└── assets/             # Static assets (images, logos)
+```
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Build for Production
 
-## How can I deploy this project?
+```bash
+npm run build
+```
 
-Simply open [Lovable](https://lovable.dev/projects/a76ceaca-d1b8-4a3d-9392-962db2fd9b2a) and click on Share -> Publish.
+The `dist` folder will contain the production-ready files that can be deployed to any static hosting service.
 
-## Can I connect a custom domain to my Lovable project?
+### Deployment Options
 
-Yes, you can!
+- **Netlify**: Connect your GitHub repository for automatic deployments
+- **Vercel**: Deploy with zero configuration
+- **GitHub Pages**: Host directly from your repository
+- **AWS S3**: Deploy to AWS S3 bucket with CloudFront
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contact Information
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Aravind Bulk Harvest**
+
+- **Address**: Andhra Pradesh, India
+- **Business Hours**: Monday - Saturday, 9:00 AM - 6:00 PM
+- **Minimum Order**: 10+ Tons
+- **Specialization**: Bulk agricultural products for wholesale and export
+
+## License
+
+This project is proprietary software owned by Aravind Bulk Harvest. All rights reserved.

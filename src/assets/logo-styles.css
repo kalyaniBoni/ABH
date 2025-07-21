@@ -1,0 +1,1425 @@
+/* CSS-Based Logo Styles for ABH - Aravind Bulk Harvest */
+
+/* AGRICULTURAL PRODUCTS LOGO DESIGNS */
+
+/* Logo Agri 1: Spice Dots Design */
+.abh-agri-1 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-agri-1 .logo-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.abh-agri-1 .spice-container {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 5px;
+}
+
+.abh-agri-1 .turmeric {
+  color: #e6a622; /* Turmeric yellow */
+  font-size: 1.2rem;
+}
+
+.abh-agri-1 .millet {
+  color: #d2691e; /* Millet brown */
+  font-size: 1.2rem;
+}
+
+.abh-agri-1 .spice {
+  color: #dc143c; /* Spice red */
+  font-size: 1.2rem;
+}
+
+.abh-agri-1 .abh-text {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #228b22;
+  letter-spacing: 2px;
+}
+
+.abh-agri-1 .company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.abh-agri-1 .company-name {
+  font-size: 1.3rem;
+  color: #228b22;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.abh-agri-1 .tagline {
+  font-size: 0.8rem;
+  color: #8b4513;
+  font-style: italic;
+}
+
+/* Logo Agri 2: Grain Bowl Design */
+.abh-agri-2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-agri-2 .icon-section {
+  position: relative;
+}
+
+.abh-agri-2 .grain-bowl {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abh-agri-2 .grain {
+  position: absolute;
+  font-size: 1.5rem;
+}
+
+.abh-agri-2 .grain-1 {
+  top: -10px;
+  left: -15px;
+  animation: sway 3s ease-in-out infinite;
+}
+
+.abh-agri-2 .grain-2 {
+  top: -10px;
+  right: -15px;
+  animation: sway 3s ease-in-out infinite reverse;
+}
+
+.abh-agri-2 .abh-circle {
+  background: linear-gradient(135deg, #228b22, #32cd32);
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 12px rgba(34, 139, 34, 0.3);
+}
+
+.abh-agri-2 .text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.abh-agri-2 .aravind {
+  font-size: 1.2rem;
+  color: #228b22;
+  font-weight: 600;
+}
+
+.abh-agri-2 .bulk-harvest {
+  font-size: 1rem;
+  color: #8b4513;
+  font-weight: 500;
+}
+
+.abh-agri-2 .products {
+  font-size: 0.7rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Logo Agri 3: Product Dots Visual */
+.abh-agri-3 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-agri-3 .spices-visual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.abh-agri-3 .spice-dots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+}
+
+.abh-agri-3 .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.abh-agri-3 .turmeric-dot {
+  background: linear-gradient(135deg, #e6a622, #ffd700);
+}
+
+.abh-agri-3 .tamarind-dot {
+  background: linear-gradient(135deg, #8b4513, #a0522d);
+}
+
+.abh-agri-3 .millet-dot {
+  background: linear-gradient(135deg, #d2691e, #deb887);
+}
+
+.abh-agri-3 .spice-dot {
+  background: linear-gradient(135deg, #dc143c, #ff6347);
+}
+
+.abh-agri-3 .abh-main {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #228b22;
+  letter-spacing: 2px;
+}
+
+.abh-agri-3 .company-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.abh-agri-3 .company {
+  font-size: 1.1rem;
+  color: #228b22;
+  font-weight: 600;
+}
+
+.abh-agri-3 .premium {
+  font-size: 0.8rem;
+  color: #8b4513;
+  font-style: italic;
+}
+
+/* Navbar Optimized Logo */
+.abh-navbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Arial", sans-serif;
+  height: 40px;
+}
+
+.abh-navbar .nav-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.abh-navbar .product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+
+.abh-navbar .product {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.abh-navbar .turmeric {
+  background: #e6a622;
+}
+
+.abh-navbar .tamarind {
+  background: #8b4513;
+}
+
+.abh-navbar .millet {
+  background: #d2691e;
+}
+
+.abh-navbar .spices {
+  background: #dc143c;
+}
+
+.abh-navbar .nav-abh {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #228b22;
+  letter-spacing: 1px;
+}
+
+.abh-navbar .nav-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.abh-navbar .nav-company {
+  font-size: 0.9rem;
+  color: #228b22;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.abh-navbar .nav-tagline {
+  font-size: 0.6rem;
+  color: #8b4513;
+  font-style: italic;
+  line-height: 1;
+}
+
+/* Compact Logo */
+.abh-compact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-compact .compact-visual {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.abh-compact .products-emoji {
+  font-size: 1.2rem;
+}
+
+.abh-compact .compact-abh {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #228b22;
+  letter-spacing: 1px;
+}
+
+.abh-compact .compact-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.abh-compact .compact-name {
+  font-size: 0.9rem;
+  color: #228b22;
+  font-weight: 600;
+}
+
+/* Animation for grain movement */
+@keyframes sway {
+  0%,
+  100% {
+    transform: rotate(-10deg) translateY(0px);
+  }
+  50% {
+    transform: rotate(10deg) translateY(-2px);
+  }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .abh-agri-1 {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+  .abh-agri-2 {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+  .abh-agri-3 {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .abh-navbar .nav-text {
+    display: none;
+  }
+  .abh-navbar {
+    gap: 5px;
+  }
+  .abh-navbar .nav-abh {
+    font-size: 1.2rem;
+  }
+}
+
+/* Logo Pro 1: Classic Professional */
+.abh-pro-1 {
+  font-family: "Georgia", serif;
+  text-align: center;
+}
+
+.abh-pro-1 .logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.abh-pro-1 .aravind {
+  font-size: 1.2rem;
+  color: #8b4513;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.abh-pro-1 .abh-large {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #228b22;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.abh-pro-1 .bulk-harvest {
+  font-size: 1rem;
+  color: #8b4513;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Logo Pro 2: Shield Badge */
+.abh-pro-2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-pro-2 .shield {
+  width: 120px;
+  height: 140px;
+  background: linear-gradient(145deg, #228b22, #32cd32);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
+}
+
+.abh-pro-2 .shield-content {
+  text-align: center;
+  color: white;
+}
+
+.abh-pro-2 .abh {
+  font-size: 2rem;
+  font-weight: 900;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.abh-pro-2 .line {
+  width: 40px;
+  height: 2px;
+  background: #ffd700;
+  margin: 5px auto;
+}
+
+.abh-pro-2 .tagline {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Logo Pro 3: Elegant Underline */
+.abh-pro-3 {
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  position: relative;
+}
+
+.abh-pro-3 .company-full {
+  font-size: 1.8rem;
+  color: #228b22;
+  font-weight: 600;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.abh-pro-3 .underline-accent {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #ffd700, #228b22);
+  margin: 0 auto 10px auto;
+}
+
+.abh-pro-3 .abh-accent {
+  font-size: 1.2rem;
+  color: #8b4513;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+/* Logo Pro 4: Agricultural Icon */
+.abh-pro-4 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-pro-4 .leaf-icon {
+  font-size: 3rem;
+  animation: sway 3s ease-in-out infinite;
+}
+
+@keyframes sway {
+  0%,
+  100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+.abh-pro-4 .text-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.abh-pro-4 .aravind {
+  font-size: 1.4rem;
+  color: #228b22;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.abh-pro-4 .bulk {
+  font-size: 1.8rem;
+  color: #8b4513;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.abh-pro-4 .harvest {
+  font-size: 1.2rem;
+  color: #228b22;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.abh-pro-4 .abh-side {
+  font-size: 2.5rem;
+  color: #ffd700;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo Pro 5: Hexagon Modern */
+.abh-pro-5 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-pro-5 .hexagon {
+  width: 80px;
+  height: 70px;
+  background: linear-gradient(135deg, #228b22, #32cd32);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(34, 139, 34, 0.3);
+}
+
+.abh-pro-5 .abh-hex {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.abh-pro-5 .company-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.abh-pro-5 .aravind-text {
+  font-size: 1.6rem;
+  color: #228b22;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.abh-pro-5 .harvest-text {
+  font-size: 1.1rem;
+  color: #8b4513;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* Logo Short 1: Dot Separator */
+.abh-short-1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-short-1 .abh-text {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #228b22;
+  letter-spacing: 2px;
+}
+
+.abh-short-1 .dot {
+  font-size: 2rem;
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.abh-short-1 .tagline {
+  font-size: 1rem;
+  color: #8b4513;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Logo Short 2: Circle Badge */
+.abh-short-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-short-2 .logo-circle {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #228b22, #32cd32);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(34, 139, 34, 0.3);
+}
+
+.abh-short-2 .abh {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.abh-short-2 .subtitle {
+  font-size: 0.9rem;
+  color: #8b4513;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Logo Short 3: Split Letters */
+.abh-short-3 {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-short-3 .a-letter {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #228b22;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.abh-short-3 .bh-letters {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin-left: -5px;
+}
+
+.abh-short-3 .tagline {
+  font-size: 0.8rem;
+  color: #8b4513;
+  font-weight: 600;
+  margin-left: 10px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+/* Logo Short 4: Box Design */
+.abh-short-4 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-short-4 .abh-box {
+  background: #228b22;
+  color: white;
+  padding: 8px 16px;
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px rgba(34, 139, 34, 0.3);
+}
+
+.abh-short-4 .harvest-text {
+  font-size: 1.2rem;
+  color: #8b4513;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Logo Short 5: Bold & Slim */
+.abh-short-5 {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-short-5 .abh-bold {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #228b22;
+  letter-spacing: 3px;
+}
+
+.abh-short-5 .harvest-slim {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #8b4513;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+/* Responsive adjustments for short logos */
+@media (max-width: 768px) {
+  .abh-short-1 .abh-text {
+    font-size: 2rem;
+  }
+  .abh-short-1 .tagline {
+    font-size: 0.8rem;
+  }
+
+  .abh-short-2 .logo-circle {
+    width: 50px;
+    height: 50px;
+  }
+  .abh-short-2 .abh {
+    font-size: 1rem;
+  }
+
+  .abh-short-3 .a-letter {
+    font-size: 2.5rem;
+  }
+  .abh-short-3 .bh-letters {
+    font-size: 1.5rem;
+  }
+
+  .abh-short-4 .abh-box {
+    font-size: 1.5rem;
+    padding: 6px 12px;
+  }
+  .abh-short-4 .harvest-text {
+    font-size: 1rem;
+  }
+
+  .abh-short-5 .abh-bold {
+    font-size: 2.5rem;
+  }
+  .abh-short-5 .harvest-slim {
+    font-size: 1.2rem;
+  }
+}
+
+/* Logo Style 1: Modern Stacked */
+.abh-logo-1 {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  color: #228b22;
+}
+
+.abh-logo-1 .main-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.abh-logo-1 .subtitle {
+  font-size: 0.9rem;
+  color: #8b4513;
+  margin: 0;
+  letter-spacing: 1px;
+  border-top: 2px solid #ffd700;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+/* Logo Style 2: Elegant Side-by-Side */
+.abh-logo-2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: "Georgia", serif;
+}
+
+.abh-logo-2 .icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg, #228b22, #32cd32);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.abh-logo-2 .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.abh-logo-2 .company-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #228b22;
+  margin: 0;
+  line-height: 1;
+}
+
+.abh-logo-2 .tagline {
+  font-size: 0.8rem;
+  color: #8b4513;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Logo Style 3: Badge Design */
+.abh-logo-3 {
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  background: linear-gradient(135deg, #228b22, #32cd32);
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(34, 139, 34, 0.3);
+}
+
+.abh-logo-3::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+}
+
+.abh-logo-3 .main {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+}
+
+.abh-logo-3 .sub {
+  font-size: 0.7rem;
+  margin: 5px 0 0 0;
+  opacity: 0.9;
+  z-index: 1;
+  position: relative;
+}
+
+/* Logo Style 4: Minimalist Modern */
+.abh-logo-4 {
+  font-family: "Helvetica", sans-serif;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.abh-logo-4 .abh {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #228b22;
+  margin: 0;
+}
+
+.abh-logo-4 .separator {
+  width: 2px;
+  height: 40px;
+  background: #ffd700;
+}
+
+.abh-logo-4 .full-name {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.abh-logo-4 .aravind {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.abh-logo-4 .bulk-harvest {
+  font-size: 0.9rem;
+  color: #8b4513;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Logo Style 5: Agricultural Theme */
+.abh-logo-5 {
+  font-family: "Times New Roman", serif;
+  text-align: center;
+  position: relative;
+  padding: 15px;
+  background: #f8f8f0;
+  border: 3px solid #228b22;
+  border-radius: 10px;
+}
+
+.abh-logo-5::before {
+  content: "🌾";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f8f8f0;
+  padding: 0 10px;
+  font-size: 1.5rem;
+}
+
+.abh-logo-5 .company {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #228b22;
+  margin: 0;
+}
+
+.abh-logo-5 .description {
+  font-size: 0.8rem;
+  color: #8b4513;
+  margin: 5px 0 0 0;
+  font-style: italic;
+}
+
+.abh-logo-5 .est {
+  font-size: 0.7rem;
+  color: #666;
+  margin: 5px 0 0 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .abh-logo-1 .main-text {
+    font-size: 2rem;
+  }
+  .abh-logo-2 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .abh-logo-4 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .abh-logo-4 .separator {
+    width: 40px;
+    height: 2px;
+  }
+}
+
+/* Premium Agricultural Logo Styles */
+.abh-premium {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Georgia", serif;
+}
+
+.abh-premium .premium-container {
+  background: linear-gradient(135deg, #1a4d1a, #228b22);
+  padding: 25px 35px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(34, 139, 34, 0.4);
+  border: 3px solid #ffd700;
+}
+
+.abh-premium .wheat-vessel-design {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.abh-premium .wheat-left,
+.abh-premium .wheat-right {
+  font-size: 2rem;
+  color: #ffd700;
+  animation: sway 3s ease-in-out infinite;
+}
+
+.abh-premium .wheat-right {
+  animation-delay: 1.5s;
+}
+
+.abh-premium .vessel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abh-premium .vessel {
+  position: relative;
+  width: 40px;
+  height: 45px;
+}
+
+.abh-premium .vessel-body {
+  width: 40px;
+  height: 35px;
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  border-radius: 0 0 50% 50%;
+  border: 2px solid #b8860b;
+}
+
+.abh-premium .vessel-neck {
+  width: 20px;
+  height: 10px;
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  border: 2px solid #b8860b;
+  border-radius: 5px 5px 0 0;
+  margin: -2px auto 0;
+}
+
+.abh-premium .premium-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.abh-premium .abh-premium-text {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: #ffd700;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.abh-premium .premium-tagline {
+  font-size: 0.8rem;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Elegant Agricultural Logo Styles */
+.abh-elegant {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", serif;
+}
+
+.abh-elegant .elegant-bg {
+  background: linear-gradient(135deg, #0f3a0f, #1a5a1a);
+  padding: 30px 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(15, 58, 15, 0.5);
+  border: 4px solid #d4af37;
+}
+
+.abh-elegant .grain-vessel-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.abh-elegant .left-grain,
+.abh-elegant .right-grain {
+  font-size: 2.5rem;
+  color: #d4af37;
+  animation: sway 4s ease-in-out infinite;
+}
+
+.abh-elegant .right-grain {
+  animation-delay: 2s;
+}
+
+.abh-elegant .center-vessel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abh-elegant .pot-shape {
+  position: relative;
+  width: 50px;
+  height: 55px;
+}
+
+.abh-elegant .pot-rim {
+  width: 50px;
+  height: 8px;
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  border-radius: 25px;
+  border: 2px solid #b8860b;
+}
+
+.abh-elegant .pot-body {
+  width: 45px;
+  height: 35px;
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  border-radius: 0 0 60% 60%;
+  border: 2px solid #b8860b;
+  margin: -2px auto 0;
+}
+
+.abh-elegant .pot-base {
+  width: 30px;
+  height: 8px;
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  border-radius: 50%;
+  border: 2px solid #b8860b;
+  margin: -2px auto 0;
+}
+
+.abh-elegant .elegant-branding {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.abh-elegant .elegant-abh {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #d4af37;
+  letter-spacing: 4px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.abh-elegant .elegant-slogan {
+  font-size: 0.9rem;
+  color: #f0f8f0;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Navbar Elegant Logo Styles */
+.abh-navbar-elegant {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: "Arial", sans-serif;
+  height: 45px;
+}
+
+.abh-navbar-elegant .nav-elegant-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.abh-navbar-elegant .mini-wheat {
+  font-size: 1.2rem;
+  color: #d4af37;
+  animation: sway 3s ease-in-out infinite;
+}
+
+.abh-navbar-elegant .mini-vessel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.abh-navbar-elegant .mini-pot {
+  width: 20px;
+  height: 22px;
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  border-radius: 0 0 50% 50%;
+  border: 1px solid #b8860b;
+  position: relative;
+}
+
+.abh-navbar-elegant .mini-pot::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 4px;
+  background: linear-gradient(145deg, #d4af37, #ffd700);
+  border: 1px solid #b8860b;
+  border-radius: 2px 2px 0 0;
+}
+
+.abh-navbar-elegant .nav-elegant-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.abh-navbar-elegant .nav-elegant-abh {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #228b22;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.abh-navbar-elegant .nav-elegant-sub {
+  font-size: 0.7rem;
+  color: #8b4513;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+/* Animation keyframes */
+@keyframes sway {
+  0%,
+  100% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+/* Mobile responsiveness for premium logos */
+@media (max-width: 768px) {
+  .abh-premium .premium-container {
+    padding: 20px 25px;
+  }
+  .abh-premium .abh-premium-text {
+    font-size: 1.8rem;
+  }
+  .abh-premium .premium-tagline {
+    font-size: 0.7rem;
+  }
+
+  .abh-elegant .elegant-bg {
+    padding: 25px 30px;
+  }
+  .abh-elegant .elegant-abh {
+    font-size: 2rem;
+  }
+  .abh-elegant .elegant-slogan {
+    font-size: 0.8rem;
+  }
+
+  .abh-navbar-elegant .nav-elegant-text {
+    display: none;
+  }
+  .abh-navbar-elegant {
+    gap: 8px;
+  }
+  .abh-navbar-elegant .nav-elegant-abh {
+    font-size: 1.2rem;
+  }
+}
+
+/* ===== NEW CLEAN PROFESSIONAL LOGO STYLES ===== */
+
+/* Clean Professional Premium Logo */
+.abh-clean-premium {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: "Georgia", serif;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #228b22;
+}
+
+.abh-clean-premium .logo-icon-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.abh-clean-premium .leaf-icon,
+.abh-clean-premium .grain-icon {
+  font-size: 1.5rem;
+}
+
+.abh-clean-premium .text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.abh-clean-premium .abh-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #228b22;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.abh-clean-premium .company-name {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+  font-weight: 600;
+}
+
+.abh-clean-premium .tagline {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Simple Elegant Logo */
+.abh-simple-elegant {
+  display: flex;
+  justify-content: center;
+  font-family: "Arial", sans-serif;
+}
+
+.abh-simple-elegant .brand-container {
+  text-align: center;
+  padding: 25px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border-radius: 15px;
+  border: 2px solid #228b22;
+}
+
+.abh-simple-elegant .icon-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.abh-simple-elegant .nature-icon,
+.abh-simple-elegant .grain-icon {
+  font-size: 1.8rem;
+}
+
+.abh-simple-elegant .main-brand {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #228b22;
+  margin: 0 0 5px 0;
+  letter-spacing: 3px;
+}
+
+.abh-simple-elegant .sub-brand {
+  font-size: 1rem;
+  color: #8b4513;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Clean Navbar Logo */
+.abh-navbar-clean {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: "Arial", sans-serif;
+  height: 40px;
+}
+
+.abh-navbar-clean .navbar-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(135deg, #228b22, #32cd32);
+  border-radius: 50%;
+}
+
+.abh-navbar-clean .leaf-symbol {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.abh-navbar-clean .navbar-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.abh-navbar-clean .navbar-abh {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: #228b22;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+.abh-navbar-clean .navbar-subtitle {
+  font-size: 0.7rem;
+  color: #8b4513;
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* Mobile Responsive for Clean Logos */
+@media (max-width: 768px) {
+  .abh-clean-premium {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .abh-clean-premium .abh-text {
+    font-size: 2rem;
+  }
+
+  .abh-simple-elegant .main-brand {
+    font-size: 2.2rem;
+  }
+
+  .abh-navbar-clean .navbar-subtitle {
+    display: none;
+  }
+
+  .abh-navbar-clean .navbar-abh {
+    font-size: 1.2rem;
+  }
+}
