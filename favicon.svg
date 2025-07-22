@@ -1,0 +1,10 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#228B22"/>
+  
+  <!-- Leaf icon -->
+  <text x="16" y="20" text-anchor="middle" font-size="14" fill="white">🌿</text>
+  
+  <!-- ABH text below (simplified for small size) -->
+  <text x="16" y="28" text-anchor="middle" font-size="6" fill="white" font-weight="bold">ABH</text>
+</svg>
