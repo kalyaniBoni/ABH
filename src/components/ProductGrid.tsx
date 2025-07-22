@@ -10,7 +10,7 @@ const ProductGrid = () => {
       name: "Turmeric",
       description:
         "High-curcumin content turmeric, ideal for culinary and medicinal uses.",
-      image: "/product-images/292d4327-0993-43c7-9e35-0df33e9707df.png",
+      image: "product-images/292d4327-0993-43c7-9e35-0df33e9707df.png",
       specifications:
         "Curcumin content: 3-5%, Moisture: <10%, Origin: Andhra Pradesh",
       certifications: ["Organic Certified", "Export Quality", "FSSAI Approved"],
@@ -19,14 +19,14 @@ const ProductGrid = () => {
       name: "Corn",
       description:
         "Premium-grade corn suitable for food processing and animal feed.",
-      image: "/product-images/8a2778a0-7c8a-4ece-bf82-5ecc6171b0ee.png",
+      image: "product-images/8a2778a0-7c8a-4ece-bf82-5ecc6171b0ee.png",
       specifications: "Moisture: <14%, Protein: 8-10%, Origin: Local farms",
       certifications: ["Quality Tested", "Non-GMO", "FSSAI Approved"],
     },
     {
       name: "Millets",
       description: "Diverse range of millets, rich in nutrients and fiber.",
-      image: "/product-images/03c3048a-9e09-4cb2-ab37-c4020cd91397.png",
+      image: "product-images/03c3048a-9e09-4cb2-ab37-c4020cd91397.png",
       specifications:
         "Varieties: Pearl, Finger, Foxtail millets, Protein: 11-15%",
       certifications: ["Organic", "Nutritional Grade", "Export Quality"],
@@ -34,7 +34,7 @@ const ProductGrid = () => {
     {
       name: "Spices",
       description: "Aromatic spices sourced directly from local farms.",
-      image: "/product-images/d90af92f-800b-4048-82d4-fe034e722cc7.png",
+      image: "product-images/d90af92f-800b-4048-82d4-fe034e722cc7.png",
       specifications: "Varieties: Chili, Coriander, Cumin, Moisture: <12%",
       certifications: [
         "Spice Board Certified",
@@ -46,7 +46,8 @@ const ProductGrid = () => {
       name: "Tamarind",
       description:
         "Premium quality tamarind with rich tangy flavor, perfect for culinary applications.",
-      image: "/product-images/11866c0b-b5fe-46f1-89e9-6a7747f93151.png",
+      // FIX: corrected image path
+      image: "product-images/11866c0b-b5fe-46f1-89e9-6a7747f93151.png",
       specifications: "Moisture: <14%, Acidity: 12-18%, Origin: Andhra Pradesh",
       certifications: ["Export Quality", "FSSAI Approved", "Organic Certified"],
     },
@@ -98,11 +99,14 @@ const ProductGrid = () => {
         </div>
       </div>
 
-      <ProductModal
-        product={selectedProduct}
-        isOpen={!!selectedProduct}
-        onClose={() => setSelectedProduct(null)}
-      />
+      {/* Modal only shown if a product is selected */}
+      {selectedProduct && (
+        <ProductModal
+          product={selectedProduct}
+          isOpen={!!selectedProduct}
+          onClose={() => setSelectedProduct(null)}
+        />
+      )}
     </section>
   );
 };
